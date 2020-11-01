@@ -210,7 +210,7 @@ let developerEducation = [{
     title: 'Intermediate',
     year: '2004 - 2006',
     desc: 'CBSE Board - Tikamgarh'
-
+},{
     id: 3,
     title: 'BE in Information Science',
     year: '2008 - 2012',

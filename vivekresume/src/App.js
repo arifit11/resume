@@ -175,7 +175,7 @@ let professionalExperience = [{
     technologies: 'MS Application management Project involves providing 24X7 supports for the critical applications. The objective is to maintain the availability and performance of all these core apps. This project is related to middleware technology involving tomcat application servers and apache webservers. The availability of the sites and critical applications are achieved through monitoring the application and web servers and critical applications using monitoring tools such as Zabbix, Netcool. Issues must be identified and fixed to avoid a drop-in availability. Other major activities are performance tuning and developing monitoring scripts. Project scope involves environment monitoring, L1/L2 application support, incident management, change management, configuration management, release management.',
     location: 'Pune',
     type: 'ABAP Technical Consultant - July 2015 to April 2016'
-<<<<<<< HEAD
+
 }, {
     id: 4,
     company: 'Surtel Technologies Pvt. Ltd',
@@ -194,14 +194,14 @@ let professionalExperience = [{
     technologies: 'MS Application management Project involves providing 24X7 supports for the critical applications. The objective is to maintain the availability and performance of all these core apps. This project is related to middleware technology involving tomcat application servers and apache webservers. The availability of the sites and critical applications are achieved through monitoring the application and web servers and critical applications using monitoring tools such as Zabbix, Netcool. Issues must be identified and fixed to avoid a drop-in availability. Other major activities are performance tuning and developing monitoring scripts. Project scope involves environment monitoring, L1/L2 application support, incident management, change management, configuration management, release management.',
     location: 'Pune',
     type: 'ABAP Team Member - February 2013 to September 2014'
-=======
->>>>>>> c430c18e438769caf990c53559ccda706e1b1fd0
+
+
 }
 ];
 
 let developerEducation = [{
     id: 1,
-<<<<<<< HEAD
+
     title: 'Computer Science',
     year: '2006 - 2010',
     desc: 'Bansal Institute of Science & Technology - Bhopal'
@@ -210,7 +210,7 @@ let developerEducation = [{
     title: 'Intermediate',
     year: '2004 - 2006',
     desc: 'CBSE Board - Tikamgarh'
-=======
+
     title: 'BE in Information Science',
     year: '2008 - 2012',
     desc: 'sagar institute of research and technology - Bhopal'
@@ -219,7 +219,7 @@ let developerEducation = [{
     title: 'Intermediate',
     year: '2007 - 2008',
     desc: 'MP Board - Tikamgarh'
->>>>>>> c430c18e438769caf990c53559ccda706e1b1fd0
+
 }, {
     id: 3,
     title: 'High School',
@@ -231,11 +231,11 @@ let developerAchievements = [{
     id: 1,
     title: 'Certification',
     year: '2017',
-<<<<<<< HEAD
+
     desc: 'SAP Certified Development Specialist - ABAP for SAP HANA 2.0'
-=======
+
     desc: 'RedHat certified System Administrator'
->>>>>>> c430c18e438769caf990c53559ccda706e1b1fd0
+
 }, {
     id: 2,
     title: 'Certification',

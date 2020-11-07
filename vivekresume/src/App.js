@@ -85,7 +85,7 @@ let developerLanguages = [{
 let developmentSkills = [{
     id: 1,
     skillName: 'Data Dictionary Objects ',
-    level: 5
+    level: 3
 }, {
     id: 2,
     skillName: 'Batch Data com Programs',
@@ -128,7 +128,7 @@ let frameworkTools = [{
 
 let professionalExperience = [{
     id: 1,
-    company: 'Metro Global Business Services',
+    company: 'Metro Services',
     isCurrentCompany: true,
     roles: [
       "Requirement gathering from client and providing solution with Functional team.",
@@ -138,7 +138,8 @@ let professionalExperience = [{
       "Development of OO ABAP objects and RICEF"
 
     ],
-    technologies: 'Sprinklr is the most complete social media management system for the enterprise. We help the world’s largest brands do marketing, advertising, care, sales, research, and commerce on Facebook, Twitter, LinkedIn, and 21 other channels globally all on one integrated platform. This project involves maintaining end to end infrastructure support globally and ensures platform availability. Managing infrastructure and automation build deployment and releases. Scaling up infrastructure vertically and horizontally depending on the need Proactively Monitor and fix issues to ensure availability within SLA\'s.',
+    technologies: 'LUCA',
+    Client: 'Metro Services',
     location: 'Pune',
     type: 'Sr. Technical Consultant  - Nov 2018 to Present'
 }, {

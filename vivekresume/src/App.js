@@ -154,12 +154,12 @@ let professionalExperience = [{
       "Worked on Enhancements, IDocs. ",
       "Developed Smartforms"
     ],
-    technologies: 'MS Application management Project involves providing 24X7 supports for the critical applications. The objective is to maintain the availability and performance of all these core apps. This project is related to middleware technology involving tomcat application servers and apache webservers. The availability of the sites and critical applications are achieved through monitoring the application and web servers and critical applications using monitoring tools such as Zabbix, Netcool. Issues must be identified and fixed to avoid a drop-in availability. Other major activities are performance tuning and developing monitoring scripts. Project scope involves environment monitoring, L1/L2 application support, incident management, change management, configuration management, release management.',
+    technologies: 'Some project details .',
     location: 'Pune',
     type: 'ABAP Technical Consultant - May 2016 to Nov 2018'
 }, {
     id: 3,
-    company: 'Accenture Services Pvt. Ltd',
+    company: 'Accenture Services',
     isCurrentCompany: false,
     roles: [
       "Worked on Inbound Outbound IDocs.",
@@ -173,12 +173,12 @@ let professionalExperience = [{
         "b)	Sales Summary"
 
     ],
-    technologies: 'MS Application management Project involves providing 24X7 supports for the critical applications. The objective is to maintain the availability and performance of all these core apps. This project is related to middleware technology involving tomcat application servers and apache webservers. The availability of the sites and critical applications are achieved through monitoring the application and web servers and critical applications using monitoring tools such as Zabbix, Netcool. Issues must be identified and fixed to avoid a drop-in availability. Other major activities are performance tuning and developing monitoring scripts. Project scope involves environment monitoring, L1/L2 application support, incident management, change management, configuration management, release management.',
+    technologies: 'Some description.',
     location: 'Pune',
     type: 'ABAP Technical Consultant - July 2015 to April 2016'
 }, {
     id: 4,
-    company: 'Surtel Technologies Pvt. Ltd',
+    company: 'Surtel Technologies',
     isCurrentCompany: false,
     roles: [
       "Developed Reports and Module Pool Programs According to user requirements",
@@ -191,9 +191,9 @@ let professionalExperience = [{
       "Upgrade many existing Programs"
 
     ],
-    technologies: 'MS Application management Project involves providing 24X7 supports for the critical applications. The objective is to maintain the availability and performance of all these core apps. This project is related to middleware technology involving tomcat application servers and apache webservers. The availability of the sites and critical applications are achieved through monitoring the application and web servers and critical applications using monitoring tools such as Zabbix, Netcool. Issues must be identified and fixed to avoid a drop-in availability. Other major activities are performance tuning and developing monitoring scripts. Project scope involves environment monitoring, L1/L2 application support, incident management, change management, configuration management, release management.',
+    technologies: 'Some description.',
     location: 'Pune',
-    type: 'ABAP Team Member - February 2013 to September 2014'
+    type: 'ABAP Team Member - Feb 2013 to Sep 2014'
 }
 ];
 

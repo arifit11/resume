@@ -6,12 +6,6 @@ class DeveloperProfessionalExperienceItem extends React.Component {
             <li className={`pad-15 ${this.props.workExperience.isCurrentCompany ? 'active' : ''}`}>
                 <strong>{this.props.workExperience.company}</strong>
                 <span className="job-time pull-right round-2 small">{this.props.workExperience.type}</span>
-                <div className="clearfix"></div><div className="bot-5"></div>
-                <ul className="dev-roles">
-                    {this.props.workExperience.roles.map((role) => (
-                        <li>{role}</li>
-                    ))}
-                </ul>
                 <table className="mar-t5">
                     <tbody>
                         <tr>
@@ -28,6 +22,13 @@ class DeveloperProfessionalExperienceItem extends React.Component {
                         </tr>
                     </tbody>
                 </table>
+                <div className="clearfix"></div><div className="bot-5"></div>
+                <ul className="dev-roles">
+                    {this.props.workExperience.roles.map((role) => (
+                        <li>{role}</li>
+                    ))}
+                </ul>
+
             </li>
         );
     }

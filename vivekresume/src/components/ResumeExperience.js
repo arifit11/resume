@@ -10,12 +10,14 @@ class ResumeExperience extends React.Component {
                 <DeveloperSkillSet skillSetHeading='Infrastructure Skills' skills={this.props.developmentSkills} />
                 <DeveloperSkillSet skillSetHeading='Framework & Tools' skills={this.props.frameworkTools} />
                 <div className="clearfix"></div><br/>
+                <DeveloperAchievements achievementHeading='Awards & Achievements' achievements={this.props.developerAchievements} />
+                <div className="clearfix"></div><br/>
                 <div className="col-xs-12 col-sm-12 col-md-12">
                     <DeveloperWorkExperience professionalExperience={this.props.professionalExperience} />
                 </div>
                 <div className="clearfix"></div><br/>
                 <DeveloperAchievements achievementHeading='Education' achievements={this.props.developerEducation} />
-                <DeveloperAchievements achievementHeading='Awards & Achievements' achievements={this.props.developerAchievements} />
+
             </div>
         );
     };

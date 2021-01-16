@@ -7,16 +7,16 @@ class ResumeExperience extends React.Component {
     render() {
         return(
             <div className="col-xs-8 col-sm-8 col-md-8 pad-15 pad-r0">
-                <DeveloperSkillSet skillSetHeading='Infrastructure Skills' skills={this.props.developmentSkills} />
+                <DeveloperSkillSet skillSetHeading='SAP Skills' skills={this.props.developmentSkills} />
                 <DeveloperSkillSet skillSetHeading='Framework & Tools' skills={this.props.frameworkTools} />
-                <div className="clearfix"></div><br/>
-                <DeveloperAchievements achievementHeading='Awards & Achievements' achievements={this.props.developerAchievements} />
-                <div className="clearfix"></div><br/>
+
+                <DeveloperAchievements achievementHeading='Certifications' achievements={this.props.developerAchievements} />
+
                 <div className="col-xs-12 col-sm-12 col-md-12">
                     <DeveloperWorkExperience professionalExperience={this.props.professionalExperience} />
                 </div>
                 <div className="clearfix"></div><br/>
-                <DeveloperAchievements achievementHeading='Education' achievements={this.props.developerEducation} />
+
 
             </div>
         );

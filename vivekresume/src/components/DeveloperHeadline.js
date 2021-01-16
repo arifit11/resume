@@ -9,7 +9,7 @@ class ResumeSummary extends React.Component {
                     <img src={this.props.userImage} className="img-responsive img-thumbnail img-circle" />
                 </div>
                 <h3 className="text-center dev-name">{this.props.developerName}</h3>
-                <h5 className="text-center mar-b0">SAP ABAP/ S4 HANA/ SAP Analytics Cloud Certified Consultant</h5>
+                <h5 className="text-center mar-b0">SAP ABAP/ S4 HANA/ HANA 2.0/ SAP Analytics Cloud Certified Consultant</h5>
                 <br/>
             </div>
         );

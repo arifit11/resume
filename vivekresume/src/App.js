@@ -42,23 +42,35 @@ let developerInfo = [{
 
 let developerSummary = [{
     id: 1,
-    summaryText: 'Has overall experience of 8.10 years in SAP Technical area which involves hands on experience in 1 Product Development, 3 End to End SAP implementation project and 3 SAP R/3 Enhancement Support Project'
+    summaryText: 'Has overall experience of 9 years in designing, developing and maintaining ABAP & HANA solutions, which involves Product Development, End to End SAP implementations and SAP R/3 Enhancement / Support Projects'
 }, {
     id: 2,
-    summaryText: 'Good understanding and hands on experience on development for SAP SD, MM, FI, PP and WM modules'
+    summaryText: 'Involved in development for various SAP functional modules like SD, MM, FI, WM etc.'
 }, {
     id: 3,
-    summaryText: 'Have good onsite UAT exposure with direct users as Senior SAP ABAP Technical Consultant'
+    summaryText: 'Excellent knowledge in developing and managing DDIC, OOPs and RICEF objects'
 }, {
     id: 4,
-    summaryText: 'Apart from the technical hands-on, has thorough experience on defect analysis, designing solutions, efficient and innovative ideas for different customer requirements'
+    summaryText: 'Hands-on experience in developing and managing CDS views and AMDPs'
 }, {
     id: 5,
-    summaryText: 'Good Experience in Run time analysis along with Performance Tuning'
+    summaryText: 'Hands-on experience with SAP HANA Studio in Designing Schemas, Creating Packages and Calculation view'
 }, {
     id: 6,
-    summaryText: 'Excellent analytical, problem solving skills and a motivated team player with excellent inter-personal skills'
-}];
+    summaryText: 'Experience in Native HANA Modeling, SQL scripting, stored procedures and user defined functions'
+}, {
+    id: 7,
+    summaryText: 'Worked on Live Connection, Import Connection, and Calculated Dimensions/Measure/Input control in SAP Analytics Cloud'
+}, {
+    id: 8,
+    summaryText: 'Worked on Live Connection, Import Connection, and Calculated Dimensions/Measure/Input control in SAP Analytics Cloud'
+}, {
+    id: 9,
+    summaryText: 'Well versed in visualizations and usage of charts, tables, maps, filters, dropdown menus, hiding functions, interactive objects and pictures in SAP Analytics Cloud'
+}, {
+    id: 10,
+    summaryText: 'Leverage SAP SLT and Business Object Data Services BODS to acquire the data into SAP HANA.'
+},];
 
 let developerActivities = [{
     id: 1,
@@ -76,54 +88,42 @@ let developerLanguages = [{
     id: 2,
     lang: 'Hindi',
     level: 3
-}, {
-    id: 3,
-    lang: 'German',
-    level: 3
 }];
 // Heading should be Infrastructure Skills
 let developmentSkills = [{
     id: 1,
-    skillName: 'Data Dictionary Objects ',
-    level: 3
+    skillName: 'ABAP ',
+    level: 4
 }, {
     id: 2,
-    skillName: 'Batch Data com Programs',
+    skillName: 'ABAP on HANA',
     level: 4
 }, {
     id: 3,
-    skillName: 'Module Pool Programming',
-    level: 2
+    skillName: 'HANA Modeling',
+    level: 4
 }, {
     id: 4,
-    skillName: 'ALE, RFC, IDocs',
+    skillName: 'Native HANA',
     level: 3
-}, {
-    id: 5,
-    skillName: 'Docker, kubernetes, Vagrant',
-    level: 2
 }];
 
 let frameworkTools = [{
     id: 1,
-    skillName: 'Debugger',
-    level: 3
+    skillName: 'SAC (SAP Analytics Cloud)',
+    level: -1
 },{
     id: 2,
-    skillName: 'ABAP for HANA',
-    level: 4
+    skillName: 'HANA Studio',
+    level: -1
 },{
     id: 3,
-    skillName: 'CDS views',
-    level: 3
+    skillName: 'Eclipse IDE',
+    level: -1
 },{
     id: 4,
-    skillName: 'ADBC, AMDP',
-    level: 4
-},{
-    id: 5,
-    skillName: 'files,IDocs interface using AIF',
-    level: 2
+    skillName: 'Service Now, JIRA',
+    level: -1
 }];
 
 let professionalExperience = [{
@@ -131,55 +131,97 @@ let professionalExperience = [{
     company: 'Metro Services',
     isCurrentCompany: true,
     roles: [
-      "Requirement gathering from client and providing solution with Functional team.",
-      "Preparing and reviewing Technical Specification, effort estimate and Unit Testing documents.",
-      "Development of Interfaces for Flat files, IDocs using AIF.",
-      "Development of CDS views and AMDPs.",
-      "Development of OO ABAP objects and RICEF"
+      "Managing and leading status calls for the team",
+      "Performed requirement gathering, designed and developing technical solutions for ABAP deliverable.",
+      "Upgrade ABAP code to HANA",
+      "Developed CDS views and AMDPs.",
+      "Performed requirement gathering for Model, Story and Dashboard/Agenda development in SAC.",
+      "Build Analytical CDS and used them in Sap Analytics Cloud model creation.",
+      "Creating canvas/responsive/grid stories, Smart Discovery, data wrangling, blending data, formulas, cross calculations, input controls, linked analysis.",
+      "Created FI/SD KPI reports and presented to product owners in SAC.",
+      "Created database procedures and User defined functions using HANA SQL Script.",
+      "Developed calculations views",
+      "Exposure of WebIDE"
 
     ],
-    technologies: 'LUCA',
-    Client: 'Metro Services',
+    technologies: 'S/4 HANA implementation and HANA Enhancement',
+    Client: 'Metro AG (Inhouse)',
+
     location: 'Pune',
     type: 'Sr. Technical Consultant  - Nov 2018 to Present'
 }, {
     id: 2,
-    company: 'Tieto India Pvt. Ltd',
+    company: 'Tieto India',
     isCurrentCompany: false,
     roles: [
       "Requirement gathering from client and providing solution with Functional team.",
       "Preparing and reviewing Technical Specification, effort estimate and Unit Testing documents.",
       "Individually Handling Loading capacity module for Customer online.",
       "Developed Webservices for Customer online (SD module)",
-      "Worked on Enhancements, IDocs. ",
-      "Developed Smartforms"
+      "Worked on Enhancements, IDocs,Smartforms ",
+      "Worked on various performance improvement objects"
     ],
-    technologies: 'Some project details .',
+    technologies: 'S/4 HANA implementation',
     location: 'Pune',
-    type: 'ABAP Technical Consultant - May 2016 to Nov 2018'
-}, {
+    Client: 'SATO, Finland',
+    type: 'ABAP/HANA Technical Consultant - June 2018 to Nov 2018',
+},{
+
+   id: 2,
+   isCurrentCompany: false,
+   roles: [
+     "Requirement gathering and providing technical solutions.",
+     "Preparing and reviewing TS, effort estimate and Unit Testing documents.",
+     "Individually Handling Loading capacity module for Customer online.",
+     "Developed Calculation Views and exposed them for consumption.",
+     "Leverage Data Provisioning technique like SLT to acquire the data into SAP HANA",
+     "Developed Webservices, Smartforms.",
+     "Developed Reports like: Manage loading Capacities for various mill locations, Sales order summary.",
+     "Worked on various performance improvement objects",
+     "Went Onsite for UAT support"
+   ],
+   technologies: 'ABAP/HANA Enhancement & Support Project',
+   location: 'Pune',
+   Client: 'UPM Kymmene, Finland',
+   type: ' May 2016 to June 2018',
+},
+ {
     id: 3,
     company: 'Accenture Services',
     isCurrentCompany: false,
     roles: [
-      "Worked on Inbound Outbound IDocs.",
       "Developed Cost Center data upload report.",
-      "Developed data upload for G/L, Release strategy and Material master.",
-      "Developed report for vendor wise debit note/credit note.",
+      "Worked on Inbound Outbound IDocs.",
+      "Data upload for G/L, Release strategy and Material master.",
+      "Developed report for vendor debit/credit note, Sales Summary.",
       "Worked on User exits, Customer Exists.",
       "Developed Webservices for SD and MM modules.",
-      "Worked on Reports like:",
-        "a)	Company License delivery check.",
-        "b)	Sales Summary"
-
     ],
-    technologies: 'Some description.',
+    technologies: 'SAP Implementation project.',
+    Client: 'Cardinal Health',
     location: 'Pune',
     type: 'ABAP Technical Consultant - July 2015 to April 2016'
+
+},{
+   id: 3,
+   isCurrentCompany: false,
+   roles: [
+     "Developed Web dynpro component for creating and maintaining Projects.",
+     "Worked on developing and managing RICEF objects.",
+     "Created an Asset for Planning Integration in BI",
+     "Developed Reports.",
+     "Handled User Tickets and resolved them within SLA defined."
+   ],
+   technologies: 'Support and Enhancement project.',
+   Client: 'Siemens Energy',
+   location: 'Pune',
+   type: ' Oct 2014 to June 2015'
+
 }, {
     id: 4,
     company: 'Surtel Technologies',
     isCurrentCompany: false,
+    Client: 'BRIGGS & Stratton',
     roles: [
       "Developed Reports and Module Pool Programs According to user requirements",
       "Part of SAP Upgrade Project Team.",
@@ -188,13 +230,45 @@ let professionalExperience = [{
       "Developed Smartforms and enhance existing Script Programs",
       "Archiving done by SARA (EC_PCA_ITM)",
       "Performance Improvement of existing Programs",
-      "Upgrade many existing Programs"
-
+      "Performance tune many existing Programs"
     ],
-    technologies: 'Some description.',
-    location: 'Pune',
-    type: 'ABAP Team Member - Feb 2013 to Sep 2014'
+    technologies: 'SAP Support project',
+    location: 'Indore',
+    type: 'ABAP Consultant - Feb 2013 to Sep 2014'
+},{
+    id: 5,
+    company: 'I-Novate Technologies',
+    isCurrentCompany: false,
+    Client: 'Terrace Bay Pulp Inc',
+
+    roles: [
+      "Developing and Customizing ABAP Dictionary Objects.",
+      "Developed a Report for Stock, Sales Production Summary.",
+      "Developed a Report for Order Book.",
+      "Developed a Module Pool Program for Repair and Return.",
+      "Developed a Smartform for Shipping Notice, Invoice Print, Purchase Requisition Print.",
+    ],
+    technologies: 'Product development (AGROVATE)',
+    location: 'Indore',
+    type: 'ABAP Consultant - Aug 2012 to Dec 2012'
+},
+{
+    id: 5,
+    isCurrentCompany: false,
+    Client: 'In-house Project',
+
+    roles: [
+      "Developing and Customizing ABAP Dictionary Objects.",
+      "Developed Report for Plot Details, Farmer Details, Acquisition Details.",
+      "Developed a module pool program for parchi system,",
+      "Developed Smartforms for Calendar Scheduling, parchi etc."
+    ],
+    technologies: 'Product development (AGROVATE)',
+    location: 'Indore',
+    type: 'April 2012 to July 2012'
 }
+
+
 ];
 
 let developerEducation = [{
@@ -216,19 +290,21 @@ let developerEducation = [{
 
 let developerAchievements = [{
     id: 1,
-    title: 'Certification',
-    year: '2017',
-    desc: 'SAP Certified Development Specialist - ABAP for SAP HANA 2.0'
+    title: 'SAP Certified Development Specialist - ABAP for SAP HANA 2.',
+    year: '2021',
+
 }, {
     id: 2,
-    title: 'Certification',
-    year: '2017',
-    desc: 'RedHat certified System Engineer'
+    year: '2020',
+    title: 'SAP Certified Application Associate - SAP Analytics Cloud'
 }, {
     id: 3,
-    title: 'Certification',
-    year: '2015',
-    desc: 'ITIL V3'
+    year: '2020',
+    title: 'Sap Certified Development Associate - SAP HANA 2.0 (SPS04)'
+}, {
+    id: 2,
+    year: '2017',
+    title: 'ITIL (Foundation Certificate in IT servive managment)'
 }];
 
 class App extends React.Component {
@@ -242,6 +318,7 @@ class App extends React.Component {
                     developerSummary = {developerSummary}
                     developerActivities = {developerActivities}
                     developerLanguages = {developerLanguages}
+                    developerEducation = {developerEducation}
                 />
                 <ResumeExperience
                     developmentSkills = {developmentSkills}

@@ -13,9 +13,10 @@ class ResumeSummary extends React.Component {
                 <DeveloperHeadline userImage = {this.props.userImage} developerName = {this.props.developerName} />
                 <DeveloperInfo developerInfo = {this.props.developerInfo} />
                 <DeveloperSummary developerSummary = {this.props.developerSummary} />
-                <DeveloperActivities developerActivities = {this.props.developerActivities} />
+                
                 <DeveloperLanguages developerLanguages = {this.props.developerLanguages} />
-                <DeveloperExtraDetails />
+                <DeveloperExtraDetails developerEducation = {this.props.developerEducation} />
+
             </div>
         );
     };

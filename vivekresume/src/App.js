@@ -320,7 +320,7 @@ let developerAchievements = [{
 }, {
     id: 2,
     year: '2017',
-    title: 'ITIL (Foundation Certificate in IT servive managment)'
+    title: 'ITIL (Foundation Certificate in IT Service management)'
 }];
 
 class App extends React.Component {

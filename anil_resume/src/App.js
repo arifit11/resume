@@ -13,7 +13,7 @@ import mailPath from './images/icons/mail-icon.png';
 import phonePath from './images/icons/telephone-icon.png';
 
 //define variables
-const developerName = 'Arif Mohammad Khan';
+const developerName = 'Anil Kumar Kakarla';
 let developerInfo = [{
     id: 1,
     icon: locationPath,
@@ -21,15 +21,15 @@ let developerInfo = [{
 }, {
     id: 2,
     icon: mailPath,
-    value: 'arifit11@gmail.com'
+    value: 'tech.anilkakarla@gmail.com'
 }, {
     id: 3,
     icon: phonePath,
-    value: '+91 9176482450'
+    value: '+91 9738972367'
 }, {
     id: 4,
     icon: heartPath,
-    value: 'Single'
+      value: 'Happily married'
 }, {
     id: 5,
     icon: datePath,
@@ -74,16 +74,8 @@ let developerLanguages = [{
     level: 2
 }, {
     id: 2,
-    lang: 'Hindi',
+    lang: 'Telugu',
     level: 3
-}, {
-    id: 3,
-    lang: 'Urdu',
-    level: 3
-}, {
-    id: 4,
-    lang: 'Arabic',
-    level: 1
 }];
 // Heading should be Infrastructure Skills
 let developmentSkills = [{
@@ -150,52 +142,47 @@ let professionalExperience = [{
     ],
     technologies: 'Sprinklr is the most complete social media management system for the enterprise. We help the world’s largest brands do marketing, advertising, care, sales, research, and commerce on Facebook, Twitter, LinkedIn, and 21 other channels globally all on one integrated platform. This project involves maintaining end to end infrastructure support globally and ensures platform availability. Managing infrastructure and automation build deployment and releases. Scaling up infrastructure vertically and horizontally depending on the need Proactively Monitor and fix issues to ensure availability within SLA\'s.',
     location: 'Bangalore',
-    type: 'Sr. Operations Engineer - May 2017 to Present'
+    type: 'Lead. Operations Engineer - May 2017 to Present'
 }, {
     id: 2,
-    company: 'NTT Data GDS',
+    company: 'Harman',
     isCurrentCompany: false,
     roles: [
       "Deployed the applications of WAR, JAR, and EAR on multiple tomcat Server and maintained Load balancing, high availability and Fail over functionality.",
       "Performing Build and Patch Deployment on Test and Production Servers as a part of Release management.",
       "Coordinate with team like (Network, DB, Security) for the failover and patching and upgrades.",
       "Adherence to ITIL processes for processes like Change Management, Incident Management, Release management and Availability management.",
-      "Coordinating in synergy with Infrastructure support teams during Disaster Recovery exercise.",
-      "Creation, updating and troubleshooting of F5 Load Balancer Virtual and Siteminder Administration.",
-      "Applications Deployment/ Decommission & Deco of Server Groups Zapplet Creation, Updating and Decommission."
+      "Building Linux servers in AWS",
+      "Adding servers for Nagios monitoring.",
+      "Setting up OS level checks like Disk checks, CPU Load, CPU utilization."
     ],
-    technologies: 'MS Application management Project involves providing 24X7 supports for the critical applications. The objective is to maintain the availability and performance of all these core apps. This project is related to middleware technology involving tomcat application servers and apache webservers. The availability of the sites and critical applications are achieved through monitoring the application and web servers and critical applications using monitoring tools such as Zabbix, Netcool. Issues must be identified and fixed to avoid a drop-in availability. Other major activities are performance tuning and developing monitoring scripts. Project scope involves environment monitoring, L1/L2 application support, incident management, change management, configuration management, release management.',
+    technologies: 'Dodge Project involves providing 24X7 supports for the critical applications. The objective is to maintain the availability and performance of all these core apps. This project is This project is aimed at migrating total in-house infra/applications to AWS – cloud. The availability of the sites and critical applications are achieved through monitoring the application and web servers and critical applications using monitoring tools such as Nagios. Project scope involves environment monitoring, L1/L2 application support, incident management, change management, configuration management, release management.',
     location: 'Bangalore',
-    type: 'Sr. Associate Consultant - October 2015 to April 2017'
+    type: 'Development Engineer - April 2015 to Feb 2017'
 }, {
     id: 3,
-    company: 'MindTree',
+    company: 'PSC Global solutions',
     isCurrentCompany: false,
     roles: [
         "First point of contact for any Technical Issues (Network Operation Center).",
         "24/7 dedicated support to ensure uninterrupted availability of IT resource.",
         "Perform health checks on servers by monitoring performance related components such as memory, CPU, network and disk activities and analyzing these reports and nding any issues that occur using Mwatch tool."
     ],
-    technologies: 'KPN is a Dutch landline and mobile telecommunications company. My work environment was Non-Wintel Server support where I was part of technical support team.',
+    technologies: 'Incyyte is aimed at creating the web application. Integration of fixed tasks, troubleshooting, building, releasing, configuration management deliveries etc. The SCM setup is GIT and Jenkins CI server.',
     location: 'Bangalore',
-    type: 'Junior Engineer - November 2013 to Octobers 2015'
+    type: 'Associate Engineer- Aug 2013 to March 2015'
 }];
 
 let developerEducation = [{
     id: 1,
-    title: 'BE in Information Science',
+    title: 'BE in Computer Science',
     year: '2008 - 2012',
-    desc: 'sagar institute of research and technology - Bhopal'
+    desc: 'Acharya Nagarjuna University, Distinction - Guntur AP'
 }, {
     id: 2,
     title: 'Intermediate',
     year: '2007 - 2008',
-    desc: 'MP Board - Tikamgarh'
-}, {
-    id: 3,
-    title: 'High School',
-    year: '2005 - 2006',
-    desc: 'Pushpa High School - Tikamgarh'
+    desc: 'AP Board '
 }];
 
 let developerAchievements = [{
@@ -208,12 +195,8 @@ let developerAchievements = [{
     title: 'Certification',
     year: '2017',
     desc: 'RedHat certified System Engineer'
-}, {
-    id: 3,
-    title: 'Certification',
-    year: '2015',
-    desc: 'ITIL V3'
-}];
+}
+];
 
 class App extends React.Component {
     render() {

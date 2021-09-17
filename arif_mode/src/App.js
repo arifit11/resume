@@ -29,7 +29,7 @@ let developerInfo = [{
 }, {
     id: 4,
     icon: heartPath,
-    value: 'happily Single'
+    value: 'Single'
 }, {
     id: 5,
     icon: datePath,
@@ -91,7 +91,7 @@ let developmentSkills = [{
     level: 4
 }, {
     id: 2,
-    skillName: 'AWS, Azzure',
+    skillName: 'AWS, Azure',
     level: 3
 }, {
     id: 3,

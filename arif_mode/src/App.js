@@ -196,22 +196,7 @@ let professionalExperience = [{
 }
 ];
 
-let developerEducation = [{
-    id: 1,
-    title: 'Computer Science',
-    year: '2006 - 2010',
-    desc: 'Bansal Institute of Science & Technology - Bhopal'
-}, {
-    id: 2,
-    title: 'Intermediate',
-    year: '2004 - 2006',
-    desc: 'CBSE Board - Tikamgarh'
-}, {
-    id: 3,
-    title: 'High School',
-    year: '2005 - 2006',
-    desc: 'Pushpa High School - Tikamgarh'
-}];
+
 
 let developerAchievements = [{
     id: 1,
